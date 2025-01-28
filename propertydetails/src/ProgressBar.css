@@ -1,0 +1,17 @@
+/* Progress Bar Styles */
+.progress-bar {
+    background-color: #e5e7eb; /* Light gray background */
+    border-radius: 8px;
+    height: 12px;
+    margin: 10px 0;
+    width: 100%;
+    position: relative;
+  }
+  
+  .progress-fill {
+    background-color: #2563eb; /* Blue fill */
+    height: 100%;
+    border-radius: 8px;
+    transition: width 0.3s ease-in-out; /* Smooth transition */
+  }
+  
